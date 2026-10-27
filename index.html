@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meta Crash Bot & Signal Analytics</title>
+    <meta name="description" content="Bot de signaux ultra performant pour Crash & Lucky Jet connecté en direct à l'API d'historique des tours avec bot Telegram @davev2JETBOT." />
+    <meta property="og:title" content="Meta Crash Bot & Signal Analytics" />
+    <meta property="og:description" content="Bot de signaux ultra performant pour Crash & Lucky Jet connecté en direct à l'API d'historique des tours avec bot Telegram @davev2JETBOT." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      (function() {
+        try {
+          var _fetch = window.fetch ? window.fetch.bind(window) : undefined;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return _fetch;
+            },
+            set: function(val) {
+              _fetch = val;
+            },
+            configurable: true,
+            enumerable: true,
+          });
+        } catch (e) {}
+
+        try {
+          var _xhr = window.XMLHttpRequest;
+          Object.defineProperty(window, 'XMLHttpRequest', {
+            get: function() {
+              return _xhr;
+            },
+            set: function(val) {
+              _xhr = val;
+            },
+            configurable: true,
+            enumerable: true,
+          });
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

@@ -1,0 +1,6 @@
+{
+  "name": "Meta Crash Bot & Signal Analytics",
+  "description": "Bot de signaux ultra performant pour Crash & Lucky Jet connecté en direct à l'API d'historique des tours avec bot Telegram @davev2JETBOT.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
